@@ -1,0 +1,224 @@
+{
+  "highlight_color": "FFFF00",
+  "items": [
+    "MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+    "MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V6",
+    "MOB_SGI_ENT_UPF_V4_10",
+    "MOB_SGI_ENT_UPF_V6_10",
+    "MOB_SGI_ENT_VCCX_V4_10",
+    "MOB_SGI_ENT_VCCX_V6_10"
+  ],
+  "append_sheets": {
+    "NCX-Sec-Obj-group-relationship": {
+      "A": "{uid}",
+      "B": "dlp-{uid}-ps_{item}",
+      "C": "pnf",
+      "D": "NCX-LEAF"
+    },
+    "NCX-Sec-Object_Group_PL": {
+      "A": "dlp-{uid}-ps_{item}",
+      "B": "ps_{item}",
+      "C": "TENANT-PREFIX-LIST"
+    },
+    "NCX-Sec-ip-address-list": [
+      {
+        "highlight_color": "BDD7EE",
+        "rows": [
+          {
+            "A": "dlp-{uid}-ong_INET_ADDRESS",
+            "B": "65.66.16.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_INET_ADDRESS",
+            "B": "65.67.120.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_INET_ADDRESS",
+            "B": "65.68.72.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_INET_ADDRESS",
+            "B": "65.69.0.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_PROTECTED_ADDRESS",
+            "B": "65.66.16.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_PROTECTED_ADDRESS",
+            "B": "65.67.120.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_PROTECTED_ADDRESS",
+            "B": "65.68.72.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ong_PROTECTED_ADDRESS",
+            "B": "65.69.0.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          }
+        ]
+      },
+      {
+        "highlight_color": "FFFF00",
+        "rows": [
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V4_10",
+            "B": "216.101.94.128",
+            "C": 25,
+            "D": "ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V4_10",
+            "B": "216.101.111.0",
+            "C": 24,
+            "D": "ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V6_10",
+            "B": "2600:382:af20::",
+            "C": 43,
+            "D": "6ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V6_10",
+            "B": "2600:387:15:6c24::",
+            "C": 64,
+            "D": "6ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V6_10",
+            "B": "2600:387:15:6c25::",
+            "C": 64,
+            "D": "6ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_V6_10",
+            "B": "2600:387:15:6c26::",
+            "C": 64,
+            "D": "6ENT_UPF_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "65.66.16.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "65.67.120.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "65.68.72.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "65.69.0.0",
+            "C": 21,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "12.73.128.0",
+            "C": 17,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V4",
+            "B": "166.196.128.0",
+            "C": 17,
+            "D": "ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V6",
+            "B": "2600:381:600::",
+            "C": 40,
+            "D": "6ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_UPF_VCCX_EIPAM_UE_V6",
+            "B": "2600:380:a800::",
+            "C": 38,
+            "D": "6ENT_PREFIX"
+          },
+          {
+            "A": "dlp-{uid}-ps_MOB_SGI_ENT_VCCX_V4_10",
+            "B": "216.101.112.192",
+            "C": 28,
+            "D": "ENT_VCCX_PREFIX"
+          }
+        ],
+        "lookup": {
+          "value_column": "B",
+          "match_columns": [
+            "C",
+            "D"
+          ],
+          "skip_column": "C",
+          "skip_values": [
+            21,
+            17,
+            40,
+            38
+          ]
+        }
+      }
+    ]
+  },
+  "update_sheets": {
+    "NCX": {
+      "match_column": "I",
+      "case_sensitive": true,
+      "matches": {
+        "sgi_direct_net_1_subnet_5": {
+          "O": "ng_NCX_ENT_UPF_SGI_V4V6",
+          "U": "rp_NCX_ENT_UPF_SGI_V4_IN",
+          "V": "rp_NCX_ENT_UPF_SGI_V6_IN",
+          "AC": "policy-id-rp_NCX_ENT_UPF_SGI_V4_IN",
+          "AD": "policy-id-rp_NCX_ENT_UPF_SGI_V6_IN"
+        },
+        "sgi_direct_net_1_subnet_9": {
+          "O": "ng_NCX_ENT_VCCX_SGI_V4V6",
+          "U": "rp_NCX_ENT_VCCX_SGI_V4_IN",
+          "V": "rp_NCX_ENT_VCCX_SGI_V6_IN",
+          "AC": "policy-id-rp_NCX_ENT_VCCX_SGI_V4_IN",
+          "AD": "policy-id-rp_NCX_ENT_VCCX_SGI_V6_IN"
+        },
+        "sgi_direct_net_2_subnet_4": {
+          "O": "ng_NCX_ENT_UPF_SGI_V4V6",
+          "U": "rp_NCX_ENT_UPF_SGI_V4_IN",
+          "V": "rp_NCX_ENT_UPF_SGI_V6_IN",
+          "AC": "policy-id-rp_NCX_ENT_UPF_SGI_V4_IN",
+          "AD": "policy-id-rp_NCX_ENT_UPF_SGI_V6_IN"
+        },
+        "sgi_direct_net_2_subnet_6": {
+          "O": "ng_NCX_ENT_VCCX_SGI_V4V6",
+          "U": "rp_NCX_ENT_VCCX_SGI_V4_IN",
+          "V": "rp_NCX_ENT_VCCX_SGI_V6_IN",
+          "AC": "policy-id-rp_NCX_ENT_VCCX_SGI_V4_IN",
+          "AD": "policy-id-rp_NCX_ENT_VCCX_SGI_V6_IN"
+        }
+      }
+    }
+  }
+}
